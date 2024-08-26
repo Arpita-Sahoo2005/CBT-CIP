@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio</title>
+    
+    <link rel="stylesheet"href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Arpita Sahoo</h1>
+    <p>Student | programmer |web Developer</p>
+  </header>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>A highly motivated final-year BSc ITM student at Ravenshaw University with strong technical skills in computer programming. Proficient in C, C++, Java,Python,HTML and CSS.passionate about leveraging technology to solve real-world problems.</p>
+  </section>
+
+  <!--PROJECTS-->
+  <section id="projects">
+    <h2>My Projects</h2>
+    <section class="project-card">
+      <div class="project details">
+        <h3>1.personal portfolio</h3>
+        <p>Basic portfolio created with html,css,javascript </p>
+        <a href="">Github</a>
+      </div>
+    </section>
+    <section class="project-card">
+      <div class="project-details">
+        <h3>2.ATM Machine</h3>
+        <p>A random number generator within a specific range.it offers both integer and floating point random .</p>
+        <a href="https://github.com/Arpita-Sahoo2005/CBT-CIP/commit/4b97189066da31ceb914ba5c8450b194df698ab2">Github</a>
+      </div>
+    </section>
+  </section>
+  <!--CONTACT-->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email:<a href="mailto:arpitasahoo7735@gmail.com">arpitasahoo7735@gmailcom</a><p>
+    <p>Linkedin:<a href="https://www.linkedin.com/in/arpita-sahoo-689339261?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ">Arpita Sahoo</a></p>
+  </section>
+  <section id="resume">
+    <h2>Download my Resume</h2>
+    <p>Click the button below to download my resume:- </p>
+    <a href="C:\Users\DELL\Downloads\Resume Format.pdf.png"download class="resume-button">Download Resume</a>
+  </section>
+
+  <section id="contact">
+    <h2>Message Me</h2>
+    <form action=""method="POST">
+      <label for="name">Name:</label>
+      <input type="text"id="name"name="name"required>
+      <br>
+      <br>
+      <label for="email">Email:</label>
+      <input type="email"id="email"name="email"required>
+      <br>
+      <br>
+      <label for="message">Message:</label>
+      <textarea id="message"name="message" rows="4"required></textarea>
+      <br>
+      <br>
+      <button type="submit">send Message</button>
+    </form>
+  </section>
+  
+ 
+ </body>
+</html>
